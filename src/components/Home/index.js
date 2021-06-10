@@ -1,14 +1,10 @@
 import React from "react";
 import { makeStyles, Box, Toolbar, Typography } from '@material-ui/core'
-import TopBar from "./TopBar";
-import Video from "./Video";
+import TopBar from "../Topbar";
+import Video from "../Video";
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-        //background: theme.palette.primary.main,
-        // padding: theme.spacing(2) , // 8px * 2
-        height: '100vh'
-    }
+    root: { height: '100vh' }
 }));
 
 
@@ -25,7 +21,7 @@ export default function Home() {
                     style={{ fontWeight: 600 }}
                 >
                     Recomendados
-          </Typography>
+                </Typography>
                 <Video />
             </Box>
 

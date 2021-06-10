@@ -11,9 +11,6 @@ import {
     Box,
     Typography,
     Button
-
-
-
 } from '@material-ui/core';
 
 import HomeIcon from '@material-ui/icons/Home';
@@ -25,7 +22,7 @@ import VideoLibrary from '@material-ui/icons/VideoLibrary';
 import History from '@material-ui/icons/History';
 
 import AccountCircle from '@material-ui/icons/AccountCircle';
-import AddCircle from '@material-ui/icons/AddCircle';
+
 
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
@@ -125,7 +122,7 @@ export default function NavBar() {
                 <Box p={7}>
                     <Typography variant='body2'>
                         Faça login para curtur vídeos, comentar e se inscrever.
-                </Typography>
+                    </Typography>
                     <Box mt={2}>
                         <Button
                             variant='outlined'
@@ -133,7 +130,7 @@ export default function NavBar() {
                             startIcon={<AccountCircle />}
                         >
                             Fazer login
-                  </Button>
+                        </Button>
                     </Box>
                 </Box>
                 <Divider />

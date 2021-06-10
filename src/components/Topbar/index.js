@@ -1,7 +1,7 @@
 import React from 'react';
-import { makeStyles, AppBar, Toolbar, IconButton, Typography, Button, Box, Hidden } from '@material-ui/core';
+import { makeStyles, AppBar, Toolbar, IconButton, Button } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
-import NavBar from './Navbar';
+import NavBar from '../Navbar';
 
 //icones
 import AccountCircle from '@material-ui/icons/AccountCircle';
@@ -12,7 +12,7 @@ import MoreVert from '@material-ui/icons/MoreVert';
 
 const useStyles = makeStyles((theme) => ({
     root: { height: '100vh' },
-    bar: { boxShadow: 'none' ,  zIndex: theme.zIndex.drawer + 1 },
+    bar: { boxShadow: 'none', zIndex: theme.zIndex.drawer + 1 },
     grow: { flexGrow: 1 },
     logo: { height: 25 },
     icon: { paddingRight: theme.spacing(2) }
